@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <!-- TRÊS MANEIRAS DE INSERIR CSS NO MEU CÓDIGO
+    1 - INSERIR DIRETAMENTE EM UMA TAG COM O ATRIBUTO STYLE
+    EXEMPLO: <p style="color: blue;" id="paragrafoUm"> 
+    
+    2 - INSERIR O SCRIPT CSS NO HEAD COM A TAG STYLE SEGUINDO A SEGUINTE SINTAXE
+
+    << SELETOR >> {
+        PROPRIEDADE : VALOR
+    }
+
+    EXEMPLO:
+        p {
+                color: violet;
+            }
+    
+    3 - INSERIR O SCRIPT EM UM ARQUIVO EXTERNO EM CSS
+    MESMA SINTAXE ANTERIOR
+    -->
+    <head>
+        <!-- ESTA É A AREA DO CABECALHO -->
+        <title>HTML AULA01</title>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+        <style>
+            p {
+                color: violet;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <!-- TAGS NORMAL -->
+        <!-- TAG COM DISPLAY BLOCK H1, P, TABLE, DIV... -->
+        <h1 onclick="alert('Clicou')" style="color: red;font-size: 38px;" title="Meu primeiro titulo" id="tituloUm">Este é um título!</h1>
+        <p id="paragrafoUm">
+            <strong>
+                <i>Este é um parágrafo.</i> Continuando o texto!
+            </strong>
+        </p>
+        <p>outro parágrafo</p>
+        <p class="paragrafos">terceiro parágrafo</p>
+        <p class="paragrafos">quarto parágrafo</p>
+
+        <div id="divAula">
+            CONTEÚDO DA TAG DIV
+        </div>
+
+        <div>
+           <h1>teste</h1>
+           <h1>teste</h1>
+           <h1>teste</h1>
+           <p>outro teste</p>
+           <p>outro teste</p>
+           <p>outro teste</p>
+        </div>
+        <span>
+            CONTEÚDO TAG SPAN
+        </span>
+       
+        <!-- TAGS VOID -->
+        <!-- TAGS COM DISPLAY INLINE  -->
+        <div >
+            <a href="https://www.globo.com">
+                <img  title="MODELO CLIENTE SERVIDOR" id="imagemUm" src='https://www.canalti.com.br/uploads/curso-fullstack-master-com-certificado-canalti.png' >
+            </a>
+        </div>
+        <img title="MODELO CLIENTE SERVIDOR" id="imagemUm" src='https://www.canalti.com.br/uploads/curso-fullstack-master-com-certificado-canalti.png' >
+        <br>
+        <a style="font-style: unset;" href="html/home.html">Vá para o Google</a>
+    </body>
+</html>
+

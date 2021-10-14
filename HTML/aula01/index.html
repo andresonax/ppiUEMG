@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <!-- AS TRÊS MANEIRAS DE INSERI CSS EM HTML
+    1o DIRETAMENTE NA TAG ATRAVÉS DO ATRIBUTO STYLE - VIDE TAG H1
+    2o ATRAVÉS DA TAG STYLE NA TAG HEAD - SINTAXE:
+
+    <<SELETOR>>{
+        propriedade : valor;    
+    } 
+
+    p {
+        color : red;
+        background-color : black
+    }
+
+    3o INSERIR O CODIGO EM UM ARQUIVO EXTERNO - SEGUINDO A MESMA SINTAXE
+
+-->
+
+    <head>
+        <title>AULA 01 - PROGRAMACAO WEB</title>
+        <link rel='stylesheet' type='text/css'  href='css/estilo.css'>
+        <style>
+             /* p {
+                color : red;
+                background-color : black
+            } */
+        </style>
+    </head>
+    
+    <body>
+        <!-- CONTEINER DO TIPO BLOCK -->
+        <div>
+            <h1 
+                id='tituloDois' 
+                title="oioioioioi" 
+                style="color: red;font-size: 48px;background-color: black;"
+            >
+                    Isto é um título!
+            </h1>
+            <h1 
+                id='tituloUm' 
+                title="oioioioioi" 
+               
+            >
+                    Isto é outro título!
+            </h1>
+            <!--
+                Tag normal
+            -->
+            <!-- TAG COM DISPLAY BLOCK -->
+            <p class="elementosClasse" id="paragrafoUm" align='center'>
+                Este é o meu parágrafo!
+            </p>
+            <p  class="elementosClasse" id="paragrafoDois">
+                Este é o meu parágrafo!
+            </p>
+            <p class="elementosClasse" id="paragrafoTres" >
+                Este é o meu parágrafo!
+            </p>
+            <p  id="paragrafoQuatro" >
+                Este é o meu parágrafo!
+            </p>
+        </div>
+        <!-- CONTEINER DO TIPO INLINE -->
+        <span>
+            <!-- tag void -->
+            <img 
+                title="Imagem com caminho relativo!" 
+                id="imagemUm" 
+                src="img/tal.png" 
+                width="250"
+                >
+
+            <img 
+                title="Imagem com caminho absoluto!" 
+                id="imagemDois" 
+                src="https://www.impacta.com.br/blog/wp-content/uploads/2020/04/banner-250x300-1.png" >
+            
+            <a href="https://www.google.com">
+                Visite o google
+            </a>
+        </span>
+        <a href="teste.html">
+            <p>Outro paragrafo</p>
+        </a>
+
+        <!-- TAG COM DISPLAY INLINE -->
+        <a href="https://www.google.com">
+            Visite o google
+        </a>
+        
+        <a href="https://www.google.com">
+            Visite o google
+        </a>
+  
+
+    </body>
+</html>

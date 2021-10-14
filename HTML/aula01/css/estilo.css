@@ -1,0 +1,55 @@
+/* SELETORES BÁSICOS
+ID -> # - SEGUIR O ATRIBUTO ID
+CLASSE -> . -> SEGUIR O ATRIBUTO CLASS
+UNIVERSAL -> * APLICA EM TODAS TAGS
+TIPO -> DIRETAMENTO O NOME DA TAG  */
+
+* {
+    margin: 0px;
+}
+
+#tituloUm {
+    background-color: white;
+    font-size: 38px;
+    margin: 20px;
+
+    border-width: 12px;
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+}
+
+
+img {
+    width: 250px;
+    margin-top: 50px;
+    margin-bottom: 29px;
+}
+
+div {
+    background-color: #900;
+}
+
+p {
+    color : red;
+    background-color : black
+}
+
+#paragrafoQuatro {
+    color : blue;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.elementosClasse {
+    color :tomato;
+    background-color: rgba(100, 50, 30, 0.5);
+}
+
+a > p {
+    background-color: seagreen;
+}
+
+a, p, h1 {
+    font-size: large;
+}

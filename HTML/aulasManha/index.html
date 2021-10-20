@@ -26,22 +26,26 @@
                 background-color : black
             } */
         </style>
+        <script type='text/javascript' src="js/script.js">
+           
+        </script>
     </head>
     
-    <body>
+    <body onload="imprime('carregou a pagina')">
         <!-- CONTEINER DO TIPO BLOCK -->
         <div>
             <h1 
                 id='tituloDois' 
                 title="oioioioioi" 
                 style="color: red;font-size: 48px;background-color: black;"
+                onclick="imprime('clicou')"
             >
-                    Isto é um título!
+                    Isto é um título! VAMOS COLOCAR EVENTOS
             </h1>
             <h1 
                 id='tituloUm' 
                 title="oioioioioi" 
-               
+                onclick="soma(2,3)"
             >
                     Isto é outro título!
             </h1>
@@ -70,6 +74,7 @@
                 id="imagemUm" 
                 src="img/tal.png" 
                 width="250"
+                onclick="alert('clicou na imagem')"
                 >
 
             <img 
@@ -93,6 +98,8 @@
         <a href="https://www.google.com">
             Visite o google
         </a>
+
+        <button onclick="imprime(`clicou no botão ${nome} ${textoDinamico}`)">teste</button>
   
 
     </body>
